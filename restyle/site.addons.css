@@ -1,0 +1,122 @@
+.section_discount .form__btn-pink_10p{
+	background-color: #f18665;
+	background: #f18665;
+	color:#fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+.form__btn-pink_10p:hover {
+	background: #e9633a;
+	color:#fff;
+}
+.section_staff__more_button,.section_discount .button,.section_contacts__name{
+	font-size: 18px;
+}
+.custom_card .custom_card__hover_description,.custom_card .custom_card__name .section_staff__hint span,.inner-page .custom_card .custom_card__name .section_staff__hint span{
+	font-size: 16px;
+	font-weight: 600;
+}
+.custom_card .custom_card__name,.custom_card .custom_card__name span,.section_advantages__name,.section_discount__top_description,.review_carousel__name{
+	font-size: 20px;
+}
+
+.section_advantages__text,.review_carousel__time,.review_carousel__place,.review_carousel__body,.section_contacts__desc .bvi-voice{
+	font-size: 16px;
+}
+.section_discount__description{
+	font-size: 12px;
+}
+.photo_gallery_section__h2{
+	margin-top: 90px;
+}
+section.same_paddings{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.level-3 ul li{
+	display: flex;
+	height: 40px;
+}
+.custom_card {
+	display: flex;
+	flex-direction: column;
+	max-height: 550px;
+	height: 100%;
+}
+.custom_card .custom_card__img {
+	height: 100%;
+	max-height: 320px;
+}
+.custom_card .custom_card__img img{
+	height: 100%;
+	max-height: 320px;
+
+	width: 100%;
+}
+.custom_card .custom_card__name.section_staff__title {
+	height: 100%;
+}
+.archive-doctors h1{
+	font-size: 35px;
+	padding-left: 30px;
+	color: #4e4e4e;
+	font-family: 'Philosopher';
+	font-weight: bold;
+	margin-bottom: 40px;
+	border-left: 5px solid #0c8290;
+}
+.fix-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0 !important;
+    padding-right: 1rem;
+}
+.fix-button a{
+	color:#000;
+}
+
+@media (max-width:480px) {
+	a{
+		color: #0c8290;
+	}
+	#order-popup .form-title {
+    font-size: 16px;}
+    .menu-mobile__phone-btn a{
+    	cursor: pointer;
+    }
+	.custom_card{
+		max-width: 270px;
+		margin: 0 auto;
+
+	}
+	.row.mobile_slider_single_item.custom_row>div{
+		margin-bottom: 10px;
+	}
+	.custom_card .custom_card__img img{
+		max-width: auto;
+		margin: 0 auto;
+	}
+	.inner-page .row.custom_row{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.section_discount .button{
+		border-radius: 40px;
+	}
+	.review_carousel__place svg,.review_carousel__time svg {
+		width: 20px;
+	}
+	.review_carousel__place,.review_carousel__time{
+		font-size: 13px;
+	}
+	.menu-mobile__item .mob-level-3.active {
+		/*min-height: 820px;*/
+	}
+
+	.mob-level-3{
+		overflow-y: scroll;
+		padding-bottom: 10px;
+	}
+}

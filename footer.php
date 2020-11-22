@@ -96,8 +96,7 @@ $templatePath = get_template_directory_uri();
 <!--            </div>-->
 <!--        </div>-->
 </div>
-<script src="https://api-maps.yandex.ru/2.1/?apikey=f2c18387-e6a9-4edb-904d-01d403ee6d06&lang=ru_RU"
-        type="text/javascript"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=f2c18387-e6a9-4edb-904d-01d403ee6d06&lang=ru_RU" type="text/javascript"></script>
 <script src="<?=$templatePath?>/js/jquery.min.js"></script>
 <script src="<?=$templatePath?>/js/owl.carousel.min.js"></script>
 <script src="<?=$templatePath?>/js/jquery.spincrement.min.js"></script>
